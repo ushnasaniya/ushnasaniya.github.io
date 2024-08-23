@@ -10,10 +10,5 @@ html, body {
     left: 0; /* Align to the left */
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
-    object-fit: cover; /* Cover the area while maintaining aspect ratio */
-    border-radius: 50%; /* Ensure it remains circular */
-    /* Ensure the image is centered if there's any overflow */
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
+    object-fit: cover; /* Scale the image to cover the viewport */
 }
