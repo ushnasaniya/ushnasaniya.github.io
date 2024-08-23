@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0; /* Remove default margins */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.profile-img {
+    position: absolute; /* Position the image absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    border-radius: 50%; /* Ensure it remains circular */
+    /* Ensure the image is centered if there's any overflow */
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
